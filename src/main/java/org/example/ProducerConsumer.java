@@ -6,7 +6,7 @@ import java.util.Random;
 
 public class ProducerConsumer {
 
-    private int limit = 10;
+    private int limit = 2;
     private List<Integer> buffer = new LinkedList<>();
 
     public void produce() throws InterruptedException {
